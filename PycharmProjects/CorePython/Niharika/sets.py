@@ -1,0 +1,10 @@
+set = {'a','b','c','d','e','f','g','h','i','j','b','d','f'}
+print("Set is",set)
+set.add('n')
+print("Add n",set)
+set.remove('b')
+print("remove b",set)
+set.discard('d')
+print("discard d",set)
+set.remove('j')
+print("remove j" ,set)
