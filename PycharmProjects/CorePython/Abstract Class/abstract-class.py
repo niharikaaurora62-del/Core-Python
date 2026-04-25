@@ -13,5 +13,5 @@ class Circle(Shape):
     PI = 3.14
     def area(self):
         return self.radius*self.radius*Circle.PI
-c = Circle(2)
+c = Circle(4)
 print(c.area())
