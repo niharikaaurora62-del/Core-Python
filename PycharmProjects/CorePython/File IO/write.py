@@ -1,0 +1,7 @@
+fo =  open("C:/Users/LENOVO/Desktop/Python File IO.txt","w")
+fo.write("Hello World")
+fo.close()
+fr = open("C:/Users/LENOVO/Desktop/Python File IO.txt","r")
+text = fr.read()
+print(text)
+fo.close()
