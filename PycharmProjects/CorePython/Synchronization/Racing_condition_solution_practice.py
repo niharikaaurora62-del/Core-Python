@@ -36,8 +36,8 @@ class Racing(Thread):
 def main_task():
     acc = Employee()
 
-    t1 = Racing(acc, 'abc')
-    t2 = Racing(acc, 'xyz')
+    t1 = Racing(acc, 'Ram')
+    t2 = Racing(acc, 'Shyam')
 
     t1.start()
     t2.start()
